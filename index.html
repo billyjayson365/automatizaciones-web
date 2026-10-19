@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Automatizaciones: proyecto personal orientado a explorar herramientas de automatización, integraciones y desarrollo de soluciones digitales.">
+  <meta name="theme-color" content="#0f172a">
+  <title>Automatizaciones | Integración y tecnología</title>
+  <style>
+    :root { color-scheme: light; --ink:#142038; --muted:#526178; --line:#e5eaf1; --blue:#335ce9; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:#f7f9fc; line-height:1.6; }
+    .wrap { width:min(100% - 40px, 1024px); margin-inline:auto; }
+    header { background:#fff; border-bottom:1px solid var(--line); }
+    .topbar { min-height:78px; display:flex; align-items:center; justify-content:space-between; gap:18px; }
+    .brand { font-weight:800; font-size:1.13rem; letter-spacing:-.02em; }
+    .brand span { display:inline-grid; place-items:center; width:34px; height:34px; border-radius:10px; color:#fff; background:var(--blue); margin-right:10px; font-size:1.05rem; }
+    .small { color:var(--muted); font-size:.9rem; }
+    main { padding:75px 0 90px; }
+    .tag { display:inline-block; background:#e9efff; color:#2346ba; padding:5px 13px; font-size:.82rem; font-weight:700; border-radius:999px; }
+    h1 { font-size:clamp(2.25rem,5vw,4rem); line-height:1.12; letter-spacing:-.045em; margin:22px 0 20px; max-width:740px; }
+    .intro { font-size:clamp(1rem,2vw,1.17rem); color:var(--muted); max-width:720px; margin-bottom:45px; }
+    h2 { font-size:1.45rem; letter-spacing:-.02em; margin:0 0 14px; }
+    .cardgrid { display:grid; grid-template-columns:repeat(3,1fr); gap:17px; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:17px; padding:25px; box-shadow:0 9px 26px rgba(20,32,56,.035); }
+    .symbol { display:inline-grid; place-items:center; height:41px; width:41px; border-radius:11px; background:#edf2ff; color:var(--blue); font-size:1.25rem; margin-bottom:13px; font-weight:750; }
+    .card h3 { font-size:1.05rem; margin:0 0 8px; }
+    .card p { color:var(--muted); font-size:.95rem; margin:0; }
+    .about { margin-top:45px; border-left:4px solid var(--blue); padding:5px 0 5px 23px; max-width:750px; }
+    .about p { margin:0; color:var(--muted); }
+    footer { border-top:1px solid var(--line); background:#fff; }
+    .foot { min-height:85px; display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; padding:18px 0; }
+    @media (max-width:690px) { main { padding:49px 0 65px; } .cardgrid { grid-template-columns:1fr; } .topbar .small { display:none; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <div class="brand"><span aria-hidden="true">A</span>Automatizaciones</div>
+      <div class="small">Proyecto de tecnología y automatización</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <span class="tag">Proyecto personal</span>
+    <h1>Soluciones digitales y automatización de procesos</h1>
+    <p class="intro">Automatizaciones es un proyecto dedicado al aprendizaje y desarrollo de integraciones, flujos de trabajo y herramientas que facilitan tareas digitales.</p>
+
+    <section aria-labelledby="areas">
+      <h2 id="areas">Áreas de trabajo</h2>
+      <div class="cardgrid">
+        <article class="card">
+          <div class="symbol" aria-hidden="true">↗</div>
+          <h3>Automatización de procesos</h3>
+          <p>Exploración de flujos automatizados con herramientas como n8n.</p>
+        </article>
+        <article class="card">
+          <div class="symbol" aria-hidden="true">{ }</div>
+          <h3>APIs e integraciones</h3>
+          <p>Prácticas de conexión entre aplicaciones y servicios utilizando Python y APIs.</p>
+        </article>
+        <article class="card">
+          <div class="symbol" aria-hidden="true">✉</div>
+          <h3>Mensajería automatizada</h3>
+          <p>Pruebas e integración de canales de mensajería mediante herramientas oficiales.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" aria-labelledby="acerca">
+      <h2 id="acerca">Sobre el proyecto</h2>
+      <p>Este sitio presenta un proyecto personal de experimentación tecnológica. Su objetivo es desarrollar y probar soluciones de automatización de forma responsable, respetando las políticas de las plataformas utilizadas.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <strong>Automatizaciones</strong>
+      <span class="small">Sitio informativo del proyecto</span>
+    </div>
+  </footer>
+</body>
+</html>
